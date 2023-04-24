@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>profile-card-component-main</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Kumbh Sans"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        width: 1440px;
+        height: 720px;
+
+        background: #19a1ae;
+      }
+      .top-left {
+        height: 1381px;
+        width: 1381px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 50px;
+        margin-top: -771px;
+        margin-left: -486px;
+      }
+
+      .bottom-right {
+        height: 978px;
+        width: 978px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        /* margin-bottom: -836px; */
+        /* margin-right: -431px; */
+        padding-left: 525px;
+        margin-top: -220px;
+      }
+
+      .card {
+        position: absolute;
+        z-index: 2;
+        height: 374px;
+        width: 350px;
+        border-radius: 15px;
+        background: #ffffff;
+        box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+
+        margin-left: 454px;
+        margin-top: -496px;
+      }
+      .bg-pattern-card {
+        height: 140px;
+        width: 350px;
+        border-start-start-radius: 15px;
+        border-start-end-radius: 15px;
+        overflow: hidden;
+        max-width: 100%;
+      }
+      .image-victor {
+        height: 96px;
+        width: 96px;
+        border: 5px solid #ffffff;
+        border-radius: 50px;
+        margin-left: 127px;
+        margin-top: -15%;
+      }
+      .header-div {
+        width: 166px;
+        /* height: 37px; */
+        margin-left: 108px;
+        margin-top: 20px;
+      }
+      .header-div h1 {
+        display: inline;
+        font-family: "Kumbh Sans";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #2e3349;
+        /* height: 18px;
+        width: 104px; */
+      }
+      .year {
+        font-family: "Kumbh Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        display: inline;
+        color: #6b7082;
+        padding-left: 9px;
+      }
+      .city {
+        font-family: "Kumbh Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 13px;
+        text-align: center;
+        height: 14px;
+        width: 50px;
+        color: #6b7082;
+        margin-left: 40px;
+      }
+      .retangle {
+        margin-top: 28px;
+        width: 348px;
+        border: 1px solid #e8e9ec;
+      }
+      .card-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 47px;
+        margin-right: 47px;
+      }
+      .card-bottom h1 {
+        font-family: "Kumbh Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+
+        color: #2e3349;
+      }
+      .card-bottom p {
+        font-family: "Kumbh Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        letter-spacing: 1.5px;
+
+        color: #6b7082;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="background-div"> -->
+    <div class="top-left">
+      <img
+        src="bg-pattern-top.svg"
+        alt="bg-pattern-top.svg"
+        class="bg-pattern-top"
+      />
+    </div>
+
+    <!-- </div> -->
+
+    <div class="card">
+      <img
+        src="bg-pattern-card.svg"
+        alt="bg-pattern-card.svg"
+        class="bg-pattern-card"
+      />
+      <img src="image-victor.jpg" alt="image-victor.jpg" class="image-victor" />
+      <div class="header-div">
+        <h1>Victor Crest</h1>
+        <p class="year">26</p>
+        <p class="city">London</p>
+      </div>
+      <div class="retangle"></div>
+      <div class="card-bottom">
+        <div class="followers-div">
+          <h1>80K</h1>
+          <p>Followers</p>
+        </div>
+        <div class="likes">
+          <h1>803K</h1>
+          <p>Likes</p>
+        </div>
+        <div class="photos">
+          <h1>1.4K</h1>
+          <p>Photos</p>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-right">
+      <img
+        src="bg-pattern-bottom.svg"
+        alt="bg-pattern-bottom.svg"
+        class="bg-pattern-bottom"
+      />
+    </div>
+  </body>
+</html>
